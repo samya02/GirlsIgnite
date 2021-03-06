@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>GirlsIgnite</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{url_for('static',filename='css/main.css')}}">
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+   <div class="header">
+       <h1>GirlsIgnite</h1>
+       <p>Empowering girls to achieve their dreams</p>
+   </div>
+   <div class="navbar">
+       <a href="{{url_for('home')}}" class="right">Home</a>
+       <a href="{{url_for('about')}}" class="right">About</a>
+   </div>
+   <div class="container">
+       {%block content%}
+       {%endblock%}
+   </div>
+   <div class="footer">
+       <h2>Footer</h2>
+   </div>
+
+</body>
+</html>
