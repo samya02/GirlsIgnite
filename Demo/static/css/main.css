@@ -1,32 +1,36 @@
-.header{
-    padding: 80px;
-    text-align: center;
-    background: pink;
-    color: white
+body {
+    padding: 0;
+    margin: 0;
+    background: #f2f6e9;
+}
+.header {
+    background-image: url("../../images/header_background1.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
 }
 
-.header h1{
-    font-size: 40px;
+
+.navbar {
+    background:#b446b4;
 }
 
-.navbar{
-    overflow: hidden;
-    background-color: blueviolet;
+.nav-link,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
 }
-.navbar a{
-    float: left;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 20px;
-    text-decoration: none;
+
+.nav-link {
+    margin-right: 1em !important;
 }
-.navbar a.right{
-    float: right;
-}
-.navbar a:hover{
-    background-color: turquoise;
+
+.nav-link:hover {
     color: #000;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
 }
 
 .footer{
