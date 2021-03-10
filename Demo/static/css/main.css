@@ -10,10 +10,38 @@ body {
     background-position: center;
     position: relative;
 }
-
-
+.description {
+    left: 25%;
+    position: absolute;
+    top: 45%;
+    transform: translate(-50%, -55%);
+    text-align: left;
+}
+.description h1 {
+    font-size: 6rem;
+    color: #cf0542;
+}
+.description p {
+    left: 100%;
+    color: rgb(141, 49, 218);
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    line-height: 1.5;
+}
+.description button {
+    border:1px solid #b446af;
+    background:#f33d6b;
+    border-radius: 0;
+    color:#fff;
+}
+.description button:hover {
+    border:1px solid #fff;
+    background:rgb(88, 223, 233);
+    color:#000;
+}
 .navbar {
-    background:#b446b4;
+    background: #dd4c77;
 }
 
 .nav-link,
