@@ -34,7 +34,7 @@ body {
 }
 .description button {
     border:1px solid #b446af;
-    background:#f33d6b;
+    background:#e79eb0;
     border-radius: 0;
     color:#fff;
 }
@@ -65,8 +65,26 @@ body {
     justify-content: flex-end;
 }
 
-.footer{
+.card{
+    position: relative;
+    display: flex;
+    -webkit-animation-direction: normal;
+    -webkit-box-orient: vertical;
+    border: 1px solid;
+    border-radius: .25rem;
+    background-clip: border-box;
+}
+.main_content H1{
+    font-style: italic;
+    font-size: 2.5rem;
+    color: rgb(107, 60, 235);
+
+}
+.main_content p{
+    font-size: 1.25rem;
+}
+.page-footer{
     padding: 20px;
-    text-align: center;
-    background: violet;
+    
+    background: #e6819f;
 }
