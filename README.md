@@ -3,7 +3,7 @@ GirlsIgnite is the website that allows girls to expand their knowledge about STE
 
 <img src="https://github.com/kashika0112/GirlsIgnite/blob/main/Demo/static/images/web-img1.JPG" width=70%>
 <br>
-<B><u> AIM-:</b></u> The main focus of the website is to create awareness about the importance of STEM careers in young minds. It displays stories of women who have pursued careers in STEM despite all barriers. 
+<B><u> AIM-:</b></u> The main focus of the website is to create awareness about the importance of STEM careers in young minds. It displays stories of women who have pursued careers in STEM despite all barriers. <br>
 <br>
 <img src="https://github.com/kashika0112/GirlsIgnite/blob/main/Demo/static/images/web-img2.JPG" width=70%>
 <br>
