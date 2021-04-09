@@ -14,50 +14,114 @@ body {
     
 }
 .about {
-    background-image: url("../images/header_background.jpg");
+    background-image: url("../images/background.jpg");
     background-size: cover;
     background-position: center;
     position: relative;
     padding-right: 0%;
     padding-left: 0%;
-    min-height: 100px;
     overflow: hidden;
-
+    height: 100% !important;
 }
 
-.about h3 {
+.wholecard h1 {
     font-size: 2rem;
-    color: #8d044f;
+    color: #0d048d;
     text-align: center;
     font-family: 'Times New Roman', serif;
-
 }
 
-.about p {
-    font-size: 1.5rem;
+
+.wholecard p {
+    font-size: 2rem;
     color: #8d044f;
     text-align: right;
     margin-top: -1rem;
     margin-right: 2rem;
     font-family: 'Times New Roman', serif;
-
 }
-.about dt {
-    font-size: 1.3rem;
-    color: #0d048d;
+.row{
     text-align: left;
-    margin-left: 2rem;
-    font-family: Garamond, sans-serif;
-
+    color: #022b3a;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
 }
 
-.about dd {
-    font-size: 1.1rem;
-    color: #0d048d;
+.leftcolumn
+{    text-align: left;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.about .card{ 
     text-align: left;
-    margin-left: 2rem;
-    font-family: Garamond, sans-serif;
-    
+    color: #0a3dad;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    margin-top: 80px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 8px;
+    background-color: #dd4c77;
+    padding: 30px;
+    border-width: 2px;
+    border-color: #f4f4f4;}
+
+
+.content h2{
+    word-wrap: break-word;
+    text-align: center;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    color: #0d048d;
+    letter-spacing: 1px;
+    font-family: 'Times New Roman', serif;
+    font-size: 30px;
+}
+
+.content p,dd{
+    word-wrap: break-word;
+    text-align: left;
+    letter-spacing: 1px;
+    color: white;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 20px !important;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: 'Times New Roman', serif;
+    box-sizing: border-box;
 }
 
 .description {
@@ -151,3 +215,5 @@ body {
     
     background: #e6819f;
 }
+
+
